@@ -6,10 +6,16 @@
 一. 数据获取
 目标：从sso拿到课表，从canvas拿到assginment_name, due_date
 技能：Canvas LMS API进行http请求和json解析
-过程：API拿数据
+过程：
+1.API拿数据失败：学校不让自己生成TOKEN
 1）找canvas界面域名
 2）访问官方API文档 https://你的域名/doc/api/
 3）创建Access Token Canvas → Account → Settings → New Access Token
+怎么拿Token: 手动
+
+2.直接在CANVAS抓包数据（爬虫登录，动态，代理）：
+
+3.Mock 数据（自己写一份json先用着）
 
 二. 数据处理
 目标：把原始数据变成日历事件
@@ -32,7 +38,7 @@
 版本1：手动输入数据 + 网页
 功能：手动输入events，显示在日历，用不同的颜色标记状态（done灰色/not done其他颜色）
 
-版本2：接入API自动拉events
+版本2：接入API自动拉events (OAuth2自动拿token)
 
 版本3：自动更新 + 同步
 
