@@ -36,7 +36,7 @@
 技能：定时任务cron job + 后端定时运行（任务调度，API调用）
 
 版本1：手动输入数据 + 网页
-功能：手动输入events，显示在日历，用不同的颜色标记状态（done灰色/not done其他颜色）
+功能：手动输入events，显示在日历，用不同的颜色标记状态和类型（done灰色/not done其他颜色）（Assignment Quiz test红色）（LECTURE绿色）（tutorial,lab黄色）
 
 版本2：接入API自动拉events (OAuth2自动拿token)
 
