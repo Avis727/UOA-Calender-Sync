@@ -26,9 +26,6 @@
 方案A：手搓网页日历
 技能：前端日历库full calender，HTML + CSS + JS做网页日历，React
 
-优化版本：接入APPLE calender（手机端）
-技能：用ics文件（icalender）生成ics文件，用户订阅=自动更新
-
 四. 状态管理（可增删改events）
 技能：数据库存储（SQLite/MongoDB）增删查改，后端基础（Flask, Node.js）
 
@@ -42,5 +39,9 @@
 
 版本3：自动更新 + 同步
 
-版本4：手机端 + UI优化
+版本4：手机端接入APPLE calender（手机端）用ics文件（icalender）生成ics文件，用户订阅=自动更新 + UI优化
+
+现在在做什么：
+日历code解析
+修复日历BUG：增加删除事件功能，增加更改同一个事件状态功能
 
