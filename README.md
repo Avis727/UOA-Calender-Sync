@@ -15,7 +15,6 @@
 
 2.直接在CANVAS抓包数据（爬虫登录，动态，代理）：
 
-3.Mock 数据（自己写一份json先用着）
 
 二. 数据处理
 目标：把原始数据变成日历事件
@@ -25,6 +24,7 @@
 三. 日历
 方案A：手搓网页日历
 技能：前端日历库full calender，HTML + CSS + JS做网页日历，React
+目前效果：我现在已经完成了网页日历的搭建。可以做到手动输入title, due_date，手动选择type(ass, lec, tut, even)然后生成事件并显示在日历里。还可以点击事件对其进行删除或修改状态。使用了html, javascript, FullCalender插件
 
 四. 状态管理（可增删改events）
 技能：数据库存储（SQLite/MongoDB）增删查改，后端基础（Flask, Node.js）
@@ -42,6 +42,5 @@
 版本4：手机端接入APPLE calender（手机端）用ics文件（icalender）生成ics文件，用户订阅=自动更新 + UI优化
 
 现在在做什么：
-日历code解析
-修复日历BUG：增加删除事件功能，增加更改同一个事件状态功能
+
 
